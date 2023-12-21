@@ -175,8 +175,9 @@ h3 {
   background-color: #2e2f42;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1440px;
-  background-size: cover;
+  /* max-width: 1440px; */
+  /* background-size: cover; */
+  background-size: 1440px;
   padding: 188px 0;
 }
 .slogan-text {
