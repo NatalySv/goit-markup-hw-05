@@ -646,19 +646,19 @@ textarea::placeholder {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox:checked + modal-accept > .accept-form {
+.checkbox:checked + .modal-accept > .accept-form {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
 
-.accept-icon {
+/* .accept-icon {
   opacity: 0;
-}
+} */
 
-.checkbox:checked + .accept-form > .accept-icon {
+/* .checkbox:checked + .accept-form > .accept-icon {
   opacity: 1;
-}
+} */
 
 .accept-link {
   display: inline-block;
